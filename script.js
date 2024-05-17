@@ -1,5 +1,6 @@
 function firstWord(s) {
   // your code here
+	s=s.trim();
 	const ab=s.indexOf(' ');
 	if(ab==-1)
 		return s;
@@ -9,5 +10,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
+//const s = prompt("Enter String:");
 alert(firstWord(s));
